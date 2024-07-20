@@ -1,4 +1,4 @@
-package shared
+package core
 
 
 fun swap(i: Int, j: Int, arr: Array<Int>) {

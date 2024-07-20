@@ -1,6 +1,6 @@
 package basics.sorting.quicksort.algorithm.lumetoquicksort
 
-import shared.swap
+import core.swap
 
 
 private fun quickSort(

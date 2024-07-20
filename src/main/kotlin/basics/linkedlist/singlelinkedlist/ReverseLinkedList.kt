@@ -1,6 +1,6 @@
 package basics.linkedlist.singlelinkedlist
 
-import basics.linkedlist.core.LinkedNode
+import core.LinkedNode
 
 
 fun reverseLinkedListNaive2(head: LinkedNode?): LinkedNode? {

@@ -1,6 +1,6 @@
 package basics.linkedlist.circuler_linkedlist
 
-import basics.linkedlist.core.LinkedNode
+import core.LinkedNode
 
 
 private fun insertIntoTailNaive(

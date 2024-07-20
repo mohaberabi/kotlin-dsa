@@ -1,6 +1,6 @@
 package basics.sorting
 
-import shared.swap
+import core.swap
 
 
 fun sortArrayOfTwosOnesZeroesNaive(

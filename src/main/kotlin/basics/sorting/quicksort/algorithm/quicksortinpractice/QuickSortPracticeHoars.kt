@@ -1,6 +1,6 @@
 package basics.sorting.quicksort.algorithm.quicksortinpractice
 
-import shared.swap
+import core.swap
 import kotlin.random.Random
 
 

@@ -1,6 +1,6 @@
 package basics.linkedlist.singlelinkedlist
 
-import basics.linkedlist.core.LinkedNode
+import core.LinkedNode
 
 
 private fun recursiveReverseLinkedList(

@@ -1,4 +1,6 @@
-package basics.linkedlist.core
+package basics.linkedlist
+
+import core.LinkedNode
 
 
 fun traverseLinkedListIterative(

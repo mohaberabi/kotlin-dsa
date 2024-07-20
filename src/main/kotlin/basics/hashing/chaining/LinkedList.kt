@@ -1,9 +1,6 @@
 package basics.hashing.chaining
 
-data class LinkedNode(
-    val key: Int,
-    var next: LinkedNode? = null
-)
+import core.LinkedNode
 
 
 class LinkedList(
@@ -28,7 +25,7 @@ class LinkedList(
             return
         }
 
-        if (head?.key == key) {
+        if (head?.data == key) {
             head = head?.next
             if (head == null) {
                 tail = null
@@ -37,7 +34,7 @@ class LinkedList(
         }
 
         var curr = head
-        while (curr != null && curr.next?.key != key) {
+        while (curr != null && curr.next?.data != key) {
             curr = curr.next
         }
 
@@ -56,7 +53,7 @@ class LinkedList(
         } else {
             var curr = head
             while (curr != null) {
-                if (curr.key == key) {
+                if (curr.data == key) {
                     return true
                 }
                 curr = curr.next

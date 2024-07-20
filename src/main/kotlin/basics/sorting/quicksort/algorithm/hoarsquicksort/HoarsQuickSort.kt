@@ -1,6 +1,6 @@
 package basics.sorting.quicksort.algorithm.hoarsquicksort
 
-import shared.swap
+import core.swap
 
 
 private fun quickSort(

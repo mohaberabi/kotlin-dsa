@@ -1,7 +1,7 @@
 package basics.linkedlist.singlelinkedlist
 
-import basics.linkedlist.core.LinkedNode
-import basics.linkedlist.core.traverseLinkedListIterative
+import core.LinkedNode
+import basics.linkedlist.traverseLinkedListIterative
 
 
 private fun deleteHead(

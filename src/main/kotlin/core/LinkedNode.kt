@@ -1,5 +1,4 @@
-package basics.linkedlist.core
-
+package core
 
 data class LinkedNode(
     var data: Int,

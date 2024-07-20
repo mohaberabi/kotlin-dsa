@@ -1,7 +1,7 @@
 package basics.linkedlist.double_linkedlist
 
-import basics.linkedlist.core.LinkedNode
-import basics.linkedlist.core.traverseLinkedListIterative
+import core.LinkedNode
+import basics.linkedlist.traverseLinkedListIterative
 
 
 private fun reverseDoubleLinkedList(

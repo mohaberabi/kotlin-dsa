@@ -18,7 +18,7 @@ private fun insertAtPosition(
     } else {
         var curr: LinkedNode? = head
         var count = 0
-        while (count < position - 2) {
+        while (count < position - 1) {
             count++
             curr = curr?.next
         }

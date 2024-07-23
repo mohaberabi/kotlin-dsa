@@ -3,7 +3,9 @@ package basics.linkedlist.singlelinkedlist
 import core.LinkedNode
 
 
-private fun removeDuplicatesFromSortedLinkedList(head: LinkedNode?): LinkedNode? {
+private fun removeDuplicatesFromSortedLinkedList(
+    head: LinkedNode?,
+): LinkedNode? {
     return if (head == null) {
         null
     } else {
